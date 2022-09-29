@@ -1,0 +1,24 @@
+.item-cardContainer {
+    display: flex;
+    border-radius: 5px;
+    border: 1px ;
+    width: 400px;
+    height: 100px;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 4px 31px -11px rgba(0,0,0,0.75);
+
+    .item-props {
+        width: 350px;
+        text-align: left;
+        line-height: 1px;
+    }
+    .item-buttonContainer {
+
+        i {
+            font-size: 40px;
+            color: rgba(145, 145, 145, 0.75);
+        }
+    }
+}
