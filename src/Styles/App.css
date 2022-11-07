@@ -14,6 +14,25 @@
       display: flex;
       justify-content: space-evenly;
       align-items: center; }
+      .navbar-container div .navbar-list li .navbar-list-link {
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        color: #0087ca; }
+      .navbar-container div .navbar-list li .navbar-list-link:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #0087ca;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out; }
+      .navbar-container div .navbar-list li .navbar-list-link:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left; }
     .navbar-container div .navbar-logo {
       width: 90px; }
 
@@ -22,11 +41,12 @@
   border-radius: 5px;
   border: 1px;
   width: 400px;
-  height: 100px;
+  height: 110px;
   background: white;
   padding: 10px;
   margin: 10px;
-  box-shadow: 10px 4px 31px -11px rgba(0, 0, 0, 0.75); }
+  box-shadow: 10px 4px 31px -11px rgba(0, 0, 0, 0.75);
+  cursor: pointer; }
   .item-cardContainer .item-props {
     width: 350px;
     text-align: left;
@@ -34,6 +54,94 @@
   .item-cardContainer .item-buttonContainer i {
     font-size: 40px;
     color: rgba(145, 145, 145, 0.75); }
+
+.category-container {
+  max-width: 100%;
+  height: 100%;
+  grid-gap: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px; }
+  .category-container .category-item {
+    box-shadow: 10px 4px 31px -11px rgba(0, 0, 0, 0.75);
+    object-fit: cover;
+    height: 100%;
+    width: 100%; }
+  .category-container #almacen2, .category-container #cereales, .category-container #heladera, .category-container #semillas, .category-container #sinTacc {
+    height: 150px;
+    width: 300px;
+    text-decoration: none; }
+  .category-container #almacenSueltos, .category-container #condimentosYSales, .category-container #cosmeticaNatural, .category-container #frutosSecos, .category-container #legumbresYHarinas, .category-container #mielesYEndulzantes, .category-container #panesYGalletas, .category-container #suplementosYProbioticos, .category-container #yuyitosEInfusiones {
+    height: 150px;
+    width: 400px;
+    text-decoration: none; }
+  .category-container .category-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    filter: brightness(0.5);
+    transition: all 0.3s; }
+    .category-container .category-img:hover {
+      filter: brightness(0.8); }
+  .category-container .category-title {
+    position: relative;
+    top: -110px;
+    text-align: center;
+    color: white; }
+
+.misPedidos-container {
+  width: 350px;
+  border-radius: 2rem;
+  border: 1px solid black;
+  box-shadow: 10px 4px 31px -11px rgba(0, 0, 0, 0.75);
+  height: 500px;
+  padding-top: 10px; }
+  .misPedidos-container .misPedidos-empty {
+    display: flex;
+    flex-direction: column; }
+    .misPedidos-container .misPedidos-empty i {
+      font-size: 60px; }
+  .misPedidos-container .misPedidos-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: fade-down;
+    animation-timing-function: ease;
+    animation-duration: .4s; }
+    .misPedidos-container .misPedidos-item-container .misPedidos-item {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      align-items: center; }
+      .misPedidos-container .misPedidos-item-container .misPedidos-item .misPedidos-item-close {
+        width: 10%;
+        margin-left: 10px;
+        cursor: pointer; }
+      .misPedidos-container .misPedidos-item-container .misPedidos-item .misPedidos-item-quantity {
+        width: 20%;
+        margin-left: 10px; }
+      .misPedidos-container .misPedidos-item-container .misPedidos-item .misPedidos-item-name {
+        width: 50%;
+        margin-left: 10px; }
+      .misPedidos-container .misPedidos-item-container .misPedidos-item .misPedidos-item-price {
+        width: 20%;
+        margin-left: 10px; }
+    .misPedidos-container .misPedidos-item-container .misPedidos-line {
+      width: 75%;
+      height: 0.5px;
+      background-color: black;
+      text-align: center; }
+
+.misPedidos-subtotal {
+  position: relative;
+  bottom: 0; }
+
+@keyframes fade-down {
+  from {
+    opacity: 0%; }
+  to {
+    opacity: 100%; } }
 
 .App {
   text-align: center;

@@ -1,9 +1,14 @@
 import React from 'react'
-import Logo from '../../material/logo.png'
+import Logo from '../../assets/logo.png'
 import PersonIcon from '@mui/icons-material/Person';
 import CartWidget from './CartWidget';
+import { Link } from 'react-router-dom';
+import BasicMenu from './BasicMenu';
+
+
 
 const NavBar = () => {
+
   return (
     <div className='navbar-container'>
         <div style={{width: "20%"}}>
@@ -12,13 +17,16 @@ const NavBar = () => {
         <div style={{width: '60%'}}>
         <ul className='navbar-list'>
             <li>
-                Inicio
+                <Link className='navbar-list-link' to='/'>Inicio</Link>
+            </li>
+            <li className=' navbar-list-link'>
+                <BasicMenu />
             </li>
             <li>
-                Almacén
+                <Link className='navbar-list-link' to='/about'>Sobre Nosotros</Link>
             </li>
             <li>
-                Contacto
+                <Link className='navbar-list-link' to='/contact'>Contacto</Link>
             </li>
         </ul>
         </div>

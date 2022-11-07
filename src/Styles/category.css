@@ -1,0 +1,34 @@
+.category-container {
+  max-width: 100%;
+  height: 100%;
+  grid-gap: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px; }
+  .category-container .category-item {
+    box-shadow: 10px 4px 31px -11px rgba(0, 0, 0, 0.75);
+    object-fit: cover;
+    height: 100%;
+    width: 100%; }
+  .category-container #almacen2, .category-container #cereales, .category-container #heladera, .category-container #semillas, .category-container #sinTacc {
+    height: 150px;
+    width: 300px;
+    text-decoration: none; }
+  .category-container #almacenSueltos, .category-container #condimentosYSales, .category-container #cosmeticaNatural, .category-container #frutosSecos, .category-container #legumbresYHarinas, .category-container #mielesYEndulzantes, .category-container #panesYGalletas, .category-container #suplementosYProbioticos, .category-container #yuyitosEInfusiones {
+    height: 150px;
+    width: 400px;
+    text-decoration: none; }
+  .category-container .category-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    filter: brightness(0.5);
+    transition: all 0.3s; }
+    .category-container .category-img:hover {
+      filter: brightness(0.8); }
+  .category-container .category-title {
+    position: relative;
+    top: -110px;
+    text-align: center;
+    color: white; }

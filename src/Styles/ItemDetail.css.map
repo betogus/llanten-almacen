@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,qBAAqB,CAAC;EAClB,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,eAAe;EACvB,UAAU,EAAE,IAAI;CAenB;;AAnBD,AAKI,qBALiB,CAKjB,gBAAgB,CAAC;EACb,OAAO,EAAE,IAAI;CAShB;;AAfL,AAQQ,qBARa,CAQZ,oBAAI,CAAC;EACF,SAAS,EAAE,GAAG;CACjB;;AAVT,AAWQ,qBAXa,CAWZ,qBAAK,CAAC;EACH,SAAS,EAAE,GAAG;CAEjB;;AAdT,AAgBI,qBAhBiB,CAgBjB,uBAAuB,CAAA;EACnB,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "ItemDetail.scss"
+    ],
+    "names": [],
+    "file": "ItemDetail.css"
+}

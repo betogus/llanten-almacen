@@ -2,7 +2,7 @@
 const productos = [
     {
       id: 1,
-      nombre: "POROTOS ALUBIA",
+      name: "POROTOS ALUBIA",
       precio100gr: 30,
       precioKg: 220,
       hayStock: true,
@@ -10,7 +10,7 @@ const productos = [
     },
     {
       id: 2,
-      nombre: "POROTOS DE SOJA",
+      name: "POROTOS DE SOJA",
       precio100gr: 12,
       precioKg: 95,
       hayStock: true,
@@ -18,7 +18,7 @@ const productos = [
     },
     {
       id: 3,
-      nombre: "POROTOS ADUKI",
+      name: "POROTOS ADUKI",
       precio100gr: 35,
       precioKg: 310,
       hayStock: true,
@@ -26,7 +26,7 @@ const productos = [
     },
     {
       id: 4,
-      nombre: "POROTOS COLORADOS",
+      name: "POROTOS COLORADOS",
       precio100gr: 30,
       precioKg: 240,
       hayStock: true,
@@ -34,7 +34,7 @@ const productos = [
     },
     {
       id: 5,
-      nombre: "POROTOS MUNG",
+      name: "POROTOS MUNG",
       precio100gr: 20,
       precioKg: 190,
       hayStock: true,
@@ -42,7 +42,7 @@ const productos = [
     },
     {
       id: 6,
-      nombre: "POROTOS NEGROS",
+      name: "POROTOS NEGROS",
       precio100gr: 25,
       precioKg: 245,
       hayStock: true,
@@ -50,7 +50,7 @@ const productos = [
     },
     {
       id: 7,
-      nombre: "POROTOS LUPINES",
+      name: "POROTOS LUPINES",
       precio100gr: 25,
       precioKg: 225,
       hayStock: true,
@@ -58,7 +58,7 @@ const productos = [
     },
     {
       id: 8,
-      nombre: "GARBANZOS",
+      name: "GARBANZOS",
       precio100gr: 25,
       precioKg: 249,
       hayStock: true,
@@ -66,7 +66,7 @@ const productos = [
     },
     {
       id: 29,
-      nombre: "BOLITAS DE CHOCOLATE",
+      name: "BOLITAS DE CHOCOLATE",
       precio100gr: 45,
       precioKg: 415,
       hayStock: true,
@@ -74,7 +74,7 @@ const productos = [
     },
     {
       id: 30,
-      nombre: "ALMOHADITAS DOBLE SALVADO",
+      name: "ALMOHADITAS DOBLE SALVADO",
       precio100gr: 40,
       precioKg: 360,
       hayStock: true,
@@ -82,7 +82,7 @@ const productos = [
     },
     {
       id: 31,
-      nombre: "ALMOHADITAS FRUTILLA",
+      name: "ALMOHADITAS FRUTILLA",
       precio100gr: 55,
       precioKg: 520,
       hayStock: true,
@@ -90,7 +90,7 @@ const productos = [
     },
     {
       id: 32,
-      nombre: "ALMOHADITAS LIMÓN",
+      name: "ALMOHADITAS LIMÓN",
       precio100gr: 65,
       precioKg: 640,
       hayStock: true,
@@ -98,7 +98,7 @@ const productos = [
     },
     {
       id: 33,
-      nombre: "ALMOHADITAS AVELLANA",
+      name: "ALMOHADITAS AVELLANA",
       precio100gr: 55,
       precioKg: 520,
       hayStock: true,
@@ -106,7 +106,7 @@ const productos = [
     },
     {
       id: 34,
-      nombre: "CHOCOLATE BLANCO",
+      name: "CHOCOLATE BLANCO",
       precio100gr: 55,
       precioKg: 520,
       hayStock: true,
@@ -114,7 +114,7 @@ const productos = [
     },
     {
       id: 35,
-      nombre: "LIMÓN",
+      name: "LIMÓN",
       precio100gr: 55,
       precioKg: 520,
       hayStock: true,
@@ -122,7 +122,7 @@ const productos = [
     },
     {
       id: 36,
-      nombre: "ALMOHADITAS MANÍ",
+      name: "ALMOHADITAS MANÍ",
       precio100gr: 70,
       precioKg: 645,
       hayStock: true,
@@ -130,7 +130,7 @@ const productos = [
     },
     {
       id: 37,
-      nombre: "BASTONCITOS DE SALVADO",
+      name: "BASTONCITOS DE SALVADO",
       precio100gr: 38,
       precioKg: 360,
       hayStock: true,
@@ -138,7 +138,7 @@ const productos = [
     },
     {
       id: 38,
-      nombre: "SALVADO DE TRIGO",
+      name: "SALVADO DE TRIGO",
       precio100gr: 12,
       precioKg: 105,
       hayStock: true,
@@ -146,7 +146,7 @@ const productos = [
     },
     {
       id: 39,
-      nombre: "SALVADO DE AVENA",
+      name: "SALVADO DE AVENA",
       precio100gr: 20,
       precioKg: 190,
       hayStock: true,
@@ -154,7 +154,7 @@ const productos = [
     },
     {
       id: 56,
-      nombre: "PASAS DE UVA NEGRAS",
+      name: "PASAS DE UVA NEGRAS",
       precio100gr: 35,
       precioKg: 345,
       hayStock: true,
@@ -162,7 +162,7 @@ const productos = [
     },
     {
       id: 57,
-      nombre: "PASAS DE UVA RUBIAS",
+      name: "PASAS DE UVA RUBIAS",
       precio100gr: 65,
       precioKg: 620,
       hayStock: true,
@@ -170,7 +170,7 @@ const productos = [
     },
     {
       id: 58,
-      nombre: "OREJONES",
+      name: "OREJONES",
       precio100gr: 130,
       precioKg: 1245,
       hayStock: true,
@@ -178,7 +178,7 @@ const productos = [
     },
     {
       id: 59,
-      nombre: "DAMASCOS",
+      name: "DAMASCOS",
       precio100gr: 120,
       precioKg: 1100,
       hayStock: true,
@@ -186,7 +186,7 @@ const productos = [
     },
     {
       id: 60,
-      nombre: "ANANÁ CONFITADO",
+      name: "ANANÁ CONFITADO",
       precio100gr: 135,
       precioKg: 1345,
       hayStock: true,
@@ -194,7 +194,7 @@ const productos = [
     },
     {
       id: 61,
-      nombre: "JENGIBRE CONFITADO",
+      name: "JENGIBRE CONFITADO",
       precio100gr: 150,
       precioKg: 1491,
       hayStock: true,
@@ -202,7 +202,7 @@ const productos = [
     },
     {
       id: 62,
-      nombre: "DÁTILES",
+      name: "DÁTILES",
       precio100gr: 65,
       precioKg: 600,
       hayStock: true,
@@ -210,7 +210,7 @@ const productos = [
     },
     {
       id: 63,
-      nombre: "CACAO AMARGO",
+      name: "CACAO AMARGO",
       precio100gr: 85,
       precioKg: 800,
       hayStock: true,
@@ -218,7 +218,7 @@ const productos = [
     },
     {
       id: 64,
-      nombre: "AZÚCAR MASCABO",
+      name: "AZÚCAR MASCABO",
       precio100gr: 28,
       precioKg: 260,
       hayStock: true,
@@ -226,7 +226,7 @@ const productos = [
     },
     {
       id: 65,
-      nombre: "AZÚCAR NEGRA",
+      name: "AZÚCAR NEGRA",
       precio100gr: 25,
       precioKg: 200,
       hayStock: true,
@@ -234,7 +234,7 @@ const productos = [
     },
     {
       id: 66,
-      nombre: "AZÚCAR RUBIA",
+      name: "AZÚCAR RUBIA",
       precio100gr: 27,
       precioKg: 250,
       hayStock: true,
@@ -242,7 +242,7 @@ const productos = [
     },
     {
       id: 67,
-      nombre: "BICARBONATO DE SODIO",
+      name: "BICARBONATO DE SODIO",
       precio100gr: 35,
       precioKg: 300,
       hayStock: true,
@@ -250,7 +250,7 @@ const productos = [
     },
     {
       id: 68,
-      nombre: "AZÚCAR IMPALPABLE",
+      name: "AZÚCAR IMPALPABLE",
       precio100gr: 27,
       precioKg: 250,
       hayStock: true,
@@ -258,7 +258,7 @@ const productos = [
     },
     {
       id: 69,
-      nombre: "SAL FINA DEL HIMALAYA",
+      name: "SAL FINA DEL HIMALAYA",
       precio100gr: 30,
       precioKg: 250,
       hayStock: true,
@@ -266,7 +266,7 @@ const productos = [
     },
     {
       id: 70,
-      nombre: "ALPISTE PELADO",
+      name: "ALPISTE PELADO",
       precio100gr: 38,
       precioKg: 375,
       hayStock: true,
@@ -274,7 +274,7 @@ const productos = [
     },
     {
       id: 71,
-      nombre: "SÉSAMO INTEGRAL",
+      name: "SÉSAMO INTEGRAL",
       precio100gr: 37,
       precioKg: 350,
       hayStock: true,
@@ -282,7 +282,7 @@ const productos = [
     },
     {
       id: 72,
-      nombre: "SÉSAMO BLANCO",
+      name: "SÉSAMO BLANCO",
       precio100gr: 70,
       precioKg: 685,
       hayStock: true,
@@ -290,7 +290,7 @@ const productos = [
     },
     {
       id: 73,
-      nombre: "SÉSAMO NEGRO",
+      name: "SÉSAMO NEGRO",
       precio100gr: 68,
       precioKg: 665,
       hayStock: true,
@@ -298,7 +298,7 @@ const productos = [
     },
     {
       id: 74,
-      nombre: "CHIA",
+      name: "CHIA",
       precio100gr: 38,
       precioKg: 360,
       hayStock: true,
@@ -306,7 +306,7 @@ const productos = [
     },
     {
       id: 75,
-      nombre: "AMARANTO",
+      name: "AMARANTO",
       precio100gr: 42,
       precioKg: 415,
       hayStock: true,
@@ -314,7 +314,7 @@ const productos = [
     },
     {
       id: 76,
-      nombre: "MIJO PELADO",
+      name: "MIJO PELADO",
       precio100gr: 35,
       precioKg: 332,
       hayStock: true,
@@ -322,7 +322,7 @@ const productos = [
     },
     {
       id: 77,
-      nombre: "POLEN",
+      name: "POLEN",
       precio100gr: 420,
       precioKg: 4143,
       hayStock: true,
@@ -330,7 +330,7 @@ const productos = [
     },
     {
       id: 78,
-      nombre: "PSYLLIUM",
+      name: "PSYLLIUM",
       precio100gr: 75,
       precioKg: 725,
       hayStock: true,
@@ -338,7 +338,7 @@ const productos = [
     },
     {
       id: 79,
-      nombre: "LINO",
+      name: "LINO",
       precio100gr: 27,
       precioKg: 250,
       hayStock: true,

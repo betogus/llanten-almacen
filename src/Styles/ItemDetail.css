@@ -1,0 +1,13 @@
+.itemDetail-container {
+  width: 500px;
+  border-radius: 2rem;
+  border: solid 1px black;
+  background: #aaa; }
+  .itemDetail-container .itemDetail-item {
+    display: flex; }
+    .itemDetail-container .itemDetail-item-img {
+      max-width: 50%; }
+    .itemDetail-container .itemDetail-item-text {
+      max-width: 50%; }
+  .itemDetail-container .itemDetail-buttonGroup {
+    width: 100%; }

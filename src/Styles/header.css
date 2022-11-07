@@ -14,5 +14,24 @@
       display: flex;
       justify-content: space-evenly;
       align-items: center; }
+      .navbar-container div .navbar-list li .navbar-list-link {
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        color: #0087ca; }
+      .navbar-container div .navbar-list li .navbar-list-link:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #0087ca;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out; }
+      .navbar-container div .navbar-list li .navbar-list-link:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left; }
     .navbar-container div .navbar-logo {
       width: 90px; }

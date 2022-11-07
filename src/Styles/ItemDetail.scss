@@ -1,0 +1,20 @@
+.itemDetail-container {
+    width: 500px;
+    border-radius: 2rem;
+    border: solid 1px black;
+    background: #aaa;
+    .itemDetail-item {
+        display: flex;
+
+        &-img {
+            max-width: 50%;
+        }
+        &-text {
+            max-width: 50%;
+
+        }
+    }
+    .itemDetail-buttonGroup{
+        width: 100%;
+    }
+}

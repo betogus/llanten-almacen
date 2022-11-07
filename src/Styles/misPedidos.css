@@ -1,0 +1,52 @@
+.misPedidos-container {
+  width: 350px;
+  border-radius: 2rem;
+  border: 1px solid black;
+  box-shadow: 10px 4px 31px -11px rgba(0, 0, 0, 0.75);
+  height: 500px;
+  padding-top: 10px; }
+  .misPedidos-container .misPedidos-empty {
+    display: flex;
+    flex-direction: column; }
+    .misPedidos-container .misPedidos-empty i {
+      font-size: 60px; }
+  .misPedidos-container .misPedidos-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: fade-down;
+    animation-timing-function: ease;
+    animation-duration: .4s; }
+    .misPedidos-container .misPedidos-item-container .misPedidos-item {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      align-items: center; }
+      .misPedidos-container .misPedidos-item-container .misPedidos-item .misPedidos-item-close {
+        width: 10%;
+        margin-left: 10px;
+        cursor: pointer; }
+      .misPedidos-container .misPedidos-item-container .misPedidos-item .misPedidos-item-quantity {
+        width: 20%;
+        margin-left: 10px; }
+      .misPedidos-container .misPedidos-item-container .misPedidos-item .misPedidos-item-name {
+        width: 50%;
+        margin-left: 10px; }
+      .misPedidos-container .misPedidos-item-container .misPedidos-item .misPedidos-item-price {
+        width: 20%;
+        margin-left: 10px; }
+    .misPedidos-container .misPedidos-item-container .misPedidos-line {
+      width: 75%;
+      height: 0.5px;
+      background-color: black;
+      text-align: center; }
+
+.misPedidos-subtotal {
+  position: relative;
+  bottom: 0; }
+
+@keyframes fade-down {
+  from {
+    opacity: 0%; }
+  to {
+    opacity: 100%; } }
